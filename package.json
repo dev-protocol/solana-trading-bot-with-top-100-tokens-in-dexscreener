@@ -1,0 +1,34 @@
+{
+  "name": "jupiter-swap",
+  "version": "1.0.0",
+  "description": "Jupiter API token swap utility",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "swap": "ts-node src/index.ts",
+    "buy": "ts-node src/buy-once.ts",
+    "sell": "ts-node src/sell-once.ts",
+    "sell-all": "ts-node src/sell-and-close.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "@solana/spl-token": "^0.3.9",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "jupiter",
+    "solana",
+    "swap",
+    "defi"
+  ],
+  "license": "MIT"
+}
+
