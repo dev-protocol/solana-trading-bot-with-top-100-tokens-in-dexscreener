@@ -3,6 +3,7 @@ import { Connection, Keypair, VersionedTransaction, PublicKey, Transaction } fro
 import { getAssociatedTokenAddress, getAccount, TOKEN_PROGRAM_ID, ASSOCIATED_TOKEN_PROGRAM_ID, createCloseAccountInstruction } from '@solana/spl-token';
 import bs58 from 'bs58';
 
+
 // Load environment variables
 dotenv.config();
 
