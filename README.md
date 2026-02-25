@@ -268,6 +268,5 @@ The authors and contributors are not responsible for any financial losses incurr
 
 For issues, questions, or contributions, please open an issue on the repository.
 
----
 
 **Built with ❤️ for the Solana ecosystem**
